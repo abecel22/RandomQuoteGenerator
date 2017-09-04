@@ -1,0 +1,72 @@
+body {
+	background-color: #424242;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+}
+
+#machine {
+	
+	max-width: 600px;
+	height: 400px;
+	margin: 90px auto;
+	border-radius: 15px;
+}
+
+h1 {
+	color: white;
+	display: inline-block;
+    width: 100%;
+    text-align:center;
+}
+
+#bird {
+	float: clear;
+	margin-left: 4vw;
+	color: #424242;
+}	
+
+#quoteContainer {
+	padding-left: 4vw;
+	padding-right: 4vw;
+	color: white;
+	height: 200px;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+#newQuote {
+	float: right;
+	margin-right: 4vw;
+	height: 45px;
+	width: 95px;
+	background-color: #424242;
+	color: white;
+	text-transform: uppercase;
+	font-family: inherit;
+	border-radius: 10px;
+	border: 0px;
+	outline: none;
+}
+
+
+.class1 {
+	background-color: #0097A7;
+	transition: background-color 1s;
+}
+
+.class2 {
+	background-color: #7E57C2;
+	transition: background-color 1s;
+}
+
+.class3 {
+	background-color: #EF5350;
+	transition: background-color 1s;
+}
+
+#name {
+  color: white;
+  text-align: center;
+  
+}
+
