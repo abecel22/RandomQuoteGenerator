@@ -1,2 +1,6 @@
 # RandomQuoteGenerator
-Random Quote Generator created from the Free Code Camp Curriculum
+Random Quote Generator created from the Free Code Camp curriculum.       
+
+
+
+
