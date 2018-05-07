@@ -1,72 +1,68 @@
 body {
-	background-color: #424242;
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 100;
+    background-color: #424242;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    width: 80vw;
+    height: 80vw;
+    margin: 0 auto;
 }
 
 #machine {
-	
-	max-width: 600px;
-	height: 400px;
-	margin: 90px auto;
-	border-radius: 15px;
+    border-radius: 15px;
 }
 
 h1 {
-	color: white;
-	display: inline-block;
+    color: white;
+    display: inline-block;
     width: 100%;
-    text-align:center;
+    text-align: center;
+}
+
+#quoteContainer {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    color: white;
+    height: 200px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+.buttonContainer {
+    display: flex;
+    padding: 2vw 5vw 3vw 5vw;
+    justify-content: space-between;
 }
 
 #bird {
-	float: clear;
-	margin-left: 4vw;
-	color: #424242;
-}	
-
-#quoteContainer {
-	padding-left: 4vw;
-	padding-right: 4vw;
-	color: white;
-	height: 200px;
-	font-size: 20px;
-	font-weight: 100;
+    float: clear;
+    color: #424242;
+    cursor: pointer;
 }
 
-#newQuote {
-	float: right;
-	margin-right: 4vw;
-	height: 45px;
-	width: 95px;
-	background-color: #424242;
-	color: white;
-	text-transform: uppercase;
-	font-family: inherit;
-	border-radius: 10px;
-	border: 0px;
-	outline: none;
+.toggle {
+    color: #424242;
+    cursor: pointer;
 }
-
 
 .class1 {
-	background-color: #0097A7;
-	transition: background-color 1s;
+    background-color: #0097a7;
+    transition: background-color 1s;
 }
 
 .class2 {
-	background-color: #7E57C2;
-	transition: background-color 1s;
+    background-color: #7e57c2;
+    transition: background-color 1s;
 }
 
 .class3 {
-	background-color: #EF5350;
-	transition: background-color 1s;
+    background-color: #ef5350;
+    transition: background-color 1s;
 }
 
 #name {
-  color: white;
-  text-align: center;
-  
+    color: white;
+    text-align: center;
 }
-

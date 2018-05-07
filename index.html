@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Random Quote Machine</title>
 	<link href="https://fonts.googleapis.com/css?family=Bubbler+One|Indie+Flower|Josefin+Sans" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://costa-quotes.surge.sh/randomQuotes.css">
-	<script src="https://use.fontawesome.com/5bdc1a622a.js"></script>
+	<link rel="stylesheet" type="text/css" href="randomQuotes.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+	 crossorigin="anonymous">
 </head>
-<body>
-	
+<!-- https://costa-quotes.surge.sh/randomQuotes.css -->
 
-	<div id="machine" class="class1">
-		<h1>Random Quote Machine</h1>
-		<div id="quoteContainer">
-		<p id="quote"></p>
-		<p id="author"></p>
+<body>
+
+	<div class="container">
+		<div id="machine" class="class1">
+			<h1>Random Quote Machine</h1>
+			<div id="quoteContainer">
+				<p id="quote"></p>
+				<p id="author"></p>
+			</div>
+			<div class="buttonContainer">
+				<a id="twitterButton" href="https://twitter.com/intent/tweet">
+					<i class="fab fa-twitter fa-2x" id="bird"></i>
+				</a>
+				<i id="newQuote" class="fas fa-sync-alt fa-2x toggle"></i>
+			</div>
 		</div>
-		<div id="buttonContainer">
-		<a id="twitterButton" href="https://twitter.com/intent/tweet"><i class="fa fa-twitter-square fa-3x" aria-hidden="true" id="bird"></i></a>
-		<button id="newQuote" class="toggle">New Quote</button>
-		</div>
+		<div id="name"> created with the forismatic api
+			<br> by abel acosta</div>
+
 	</div>
-	<div id= "name"> created with the forismatic api <br> by abel acosta</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script
-	src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-	integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-	crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+	 crossorigin="anonymous"></script>
 	<script type="text/javascript" src="https://costa-quotes.surge.sh/randomQuotes.js"></script>
 </body>
+
 </html>
